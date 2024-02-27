@@ -18,12 +18,16 @@ const books = [
 ];
 
 const BookList = () =>{
+  const someValue = 'shakeAndBake'
+  const displayValue = () =>{
+    console.log(someValue)
+  } 
   return (
     
     <section className='booklist'>
     {books.map((book)=>{
       //with this line of code we are passing the entire object as a prop
-      return <Book {...book} key = {book.id} />;
+      return <Book {...book} key = {book.id} displayValue={displayValue} />;
     
     })}
     </section>
@@ -38,7 +42,7 @@ const Book = (props) => {
   <article className='book'>
     <img src= {img} alt={title} />
     <h2>{title}</h2>
-    <button onClick={displayTitle}>dispaly title</button>
+    <button onClick={displayTitle}>click me</button>
     <h4>{author}</h4>
   </article>)
 }
