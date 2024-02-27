@@ -16,8 +16,8 @@ export const books = [
        img:img2,
       },
       {
-        author:"Taylor Jenkins Reid",
-        title:"The Seven Husbands of Evelyn Hugo",
+        author:"Bill Martin Jr",
+        title:"Chicka Chicka Boom Boom",
         img:img3,
         id:3,
       }
