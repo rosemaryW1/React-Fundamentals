@@ -67,3 +67,72 @@ h1{
     margin-top: 4rem;
     text-transform: capitalize;
 }
+/* modal.css */
+.modal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Add space between elements */
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-start; /* Align close button to the top */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+.close:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Additional styles for book details in modal */
+.book-details {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.book-details img {
+    max-width: 100%;
+    margin-right: 20px; /* Move the image to the left */
+    border-radius: 5px;
+}
+
+.book-details h2 {
+    font-size: 1.5rem;
+}
+
+.book-details h4 {
+    color: #617d98;
+    margin-bottom: 10px;
+}
+
+.book-details .summary {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.book-details .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
