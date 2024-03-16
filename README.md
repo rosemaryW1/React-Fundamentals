@@ -1,5 +1,6 @@
 React Course
 My React Course
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3683a17b-2d26-4736-8307-05f1b1b37114/deploy-status)](https://app.netlify.com/sites/react-amazon-best-seller-fundamentals/deploys)
 
 Support
 Find the Content Useful? You can always buy me a coffee
